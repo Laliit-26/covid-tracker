@@ -115,7 +115,7 @@ justify-self: center;
   height:400px;
   position: relative;
   overflow: auto;
-  font-size: 10px;
+  font-size: 12px;
  
 }
 .footer{
@@ -124,7 +124,7 @@ justify-self: center;
 
 .about_poster{
           background-color: black;
-    background: url(./about.jpg) no-repeat center center fixed; 
+    background: url(./contact.jpg) no-repeat center center fixed; 
     height:500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -135,4 +135,12 @@ justify-self: center;
   width: 80%;
   margin:20px 40px;
   
+}
+
+#myInput{
+  border-radius: 5px;
+  width:100%
+}
+.button{
+  padding:0px 10px;
 }
