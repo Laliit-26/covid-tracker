@@ -1,5 +1,5 @@
 # Covid Tracker
-<p align="center"><img src="screencapture-upcovidtracker-netlify-app-2021-09-19-17_15_11.png" width="700"/></p>
+<p align="center"><img src="screenshot.png" width="700"/></p>
 🔗 <a href="https://upcovidtracker.netlify.app/" target="_blank"> Visit Website</a>
 
 ## PROBLEM STATEMENT
