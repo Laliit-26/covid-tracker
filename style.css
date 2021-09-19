@@ -15,7 +15,6 @@
 }
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Oswald&display=swap');
     .poster{
         
@@ -125,10 +124,15 @@ justify-self: center;
 
 .about_poster{
           background-color: black;
-    background: url(./poster.jpg) no-repeat center center fixed; 
+    background: url(./about.jpg) no-repeat center center fixed; 
     height:500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.contact{
+  width: 80%;
+  margin:20px 40px;
+  
 }
