@@ -1,6 +1,9 @@
+ /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Oswald&display=swap');
    
 @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+                         /* navbar css */
 .icon{
     font-family: 'Gluten', cursive;
     font-size:x-large;
@@ -14,7 +17,7 @@
     z-index: 200;
 }
 
-
+                  /* poster section css */
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Oswald&display=swap');
     .poster{
         
@@ -36,7 +39,6 @@
     justify-content: space-around;
     align-items: flex-end;
      padding-top: 100px;
-     /* padding-right: 200px; */
      flex-grow: inherit;
      color:white;
 
@@ -71,23 +73,22 @@ font-size: 25px;
 }
 /* inside card  */
 .elename{
-
 align-self: center;
 justify-self: center;
 border-bottom: 1px solid black;
 }
+
 /* inside card */
 .elevalue{
-
 align-self: center;
 justify-self: center;
 }
 
+        /* map css */
+
 #map{
   height:400px;
     width:1000px;
-    /* display: flex;
-    justify-content: flex-end; */
 }
 
 .m{
@@ -102,7 +103,7 @@ justify-self: center;
     border-radius: 5px;
 
 }
-
+                          /* table section css */
 @media screen and (max-width:520px) {
     
     .table_body{
@@ -117,11 +118,13 @@ justify-self: center;
   overflow: auto;
   font-size: 12px;
  
-}
+} 
+            /* footer css */
 .footer{
   background-color:rgb(219, 170, 105) ;
 }
 
+              /* contact us page css */
 .about_poster{
           background-color: black;
     background: url(./contact.jpg) no-repeat center center fixed; 
@@ -134,7 +137,8 @@ justify-self: center;
 .contact{
   width: 80%;
   margin:20px 40px;
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
 #myInput{
@@ -143,4 +147,16 @@ justify-self: center;
 }
 .button{
   padding:0px 10px;
+}
+.country{
+  margin:10px 5px;
+  padding: 5px 5px;
+  font-size: 15px;
+    font-family: 'Gluten', cursive;
+}
+.country_text{
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  fon
 }
