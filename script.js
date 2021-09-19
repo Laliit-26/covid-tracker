@@ -206,7 +206,7 @@ function onDragEnd() {
   coordinates.innerHTML = `Longitude: ${lngLat.lng}<br />Latitude: ${lngLat.lat}`
 }
 
-// marker.on('dragend', onDragEnd);
+marker.on('dragend', onDragEnd);
 
 
 
