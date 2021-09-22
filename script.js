@@ -203,7 +203,7 @@ function setMap() {
 function onDragEnd() {
   const lngLat = marker.getLngLat()
   coordinates.style.display = 'block'
-  coordinates.innerHTML = `Longitude: ${lngLat.lng}<br />Latitude: ${lngLat.lat}`
+  coordinates.innerHTML = `Longitude: ${lngLat.longitude}<br />Latitude: ${lngLat.latitude}`
 }
 
 marker.on('dragend', onDragEnd);
