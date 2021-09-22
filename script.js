@@ -100,15 +100,13 @@ get('https://covid-193.p.rapidapi.com/statistics').then((data) => {
                     //  sorting the data according to 
                     //  country name for dropdown
   async function sort_country() {
-    const p = await data.response.sort(
-      function (p, q) {
-      return q.country - p.country;
-    })
-    return p
+    const p = await data.response.sort((a, b) => { a.country > b.country });
+    return p;
   }
                       // filling the country data in dropdown
   const call_country = () => {
     sort_country().then((data) => {
+      console.log(data);
       data.forEach((ele) => {
         search_country.innerHTML += `<option value="${ele.country}">${ele.country}</option>`
       })

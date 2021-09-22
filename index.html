@@ -89,7 +89,7 @@
                         . -->
     <span class="txt">sort by per million:</span><button class=" button btn-dark btn_death">Death</button>
     <button class="button btn-dark btn_cases">Cases</button>
-      <button class="button btn-dark btn_reset">Reset</button>
+   
 
                         <!-- search box for country -->
     <label><span class="country_text">Choose a country:</span>
@@ -97,16 +97,18 @@
     <option value="">Select One …</option>
   </select>
 </label>
+<div>
+   <button class="button btn-dark btn_reset">Reset</button></div>
 
                           <!-- table 
                           . 
                           . -->
 
-     <div class="tables overflow-scroll">
-   <table class="table table-bordered table-success table-striped mt-4 ">
+     <div class="tables overflow-scroll ">
+   <table class="table table-bordered table-success table-striped  ">
   <thead>
     <tr>
-      <th scope="col">country</th>
+      <th scope="col" class="">country</th>
       <th scope="col">total</th>
        <th scope="col">new cases</th>
       <th scope="col">critical</th>

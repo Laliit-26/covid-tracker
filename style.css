@@ -17,6 +17,31 @@
     z-index: 200;
 }
 
+                       /* scroll bar for table */
+
+/* width */
+.tables::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+.tables::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.tables::-webkit-scrollbar-thumb {
+  background: #e4373a; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.tables::-webkit-scrollbar-thumb:hover {
+  background: #8a0000; 
+}
+
                   /* poster section css */
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Oswald&display=swap');
     .poster{
@@ -47,8 +72,9 @@
   float: right;
 }
 .txt{
-  font-size: 20px;
-    font-family: 'Gluten', cursive;
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
 }
 /* individual card */
 .onposter{
@@ -109,6 +135,38 @@ justify-self: center;
     .table_body{
       font-size: 12px;
     }
+  .btn_cases,.btn_death,.btn_reset{
+    
+      font-size: 15px;
+      padding: 0px ;
+      margin: 0px ;
+    }
+    .btn_reset{
+      margin-bottom:5px;
+      padding-bottom: 5px;
+      margin-right: 10px;
+    }
+    
+    .txt{
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+    .country_text{
+  font-weight: 400;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+.country{
+   margin:10px 5px;
+  padding: 5px 5px;
+  font-size: 5px;
+  width: 40%;
+    font-family: 'Gluten', cursive;
+    background-color: #e4373a;
+    color: white;
+}
  
 }
 .tables{
@@ -153,6 +211,8 @@ justify-self: center;
   padding: 5px 5px;
   font-size: 15px;
     font-family: 'Gluten', cursive;
+    background-color: #e4373a;
+    color: white;
 }
 .country_text{
   font-weight: 400;
